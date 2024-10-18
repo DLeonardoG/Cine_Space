@@ -1,28 +1,19 @@
 @keyframes background-begin {
     0%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121421045508.gif");
-    }
-    20%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121493589183.gif");
-    }
-    40%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/17//2016031720192921705.gif");
+        background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHZxN2JmajgwZnN0ZXJmZ3Q0bzFuYmhkYmFnemlnb3UzeDl1eWk0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gi8JtlDffQMexR3YcU/giphy.webp");
     }
     60%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121373799682.gif");
-    }
-    80%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121050553887.gif");
+        background-image: url("https://media0.giphy.com/media/Sk3YpB5CAuPvgeT26H/200.webp?cid=790b7611eb73vuut3xo3qn503zehcsv7bs66rpqdn8whe0q2&ep=v1_gifs_search&rid=200.webp&ct=g");
     }
     100%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031120594949861.gif");
+        background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDRnNmJncWZoZmd4aWlhbzA4N3pwcmJxeGN0YWhvZm0wNWJqaWJpaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fRMjhlutjykSs/200.webp");
     }
 }
 
 #begin {
     background-size: cover;
     background-attachment: fixed;
-    animation: background-begin 15s linear both infinite
+    animation: background-begin 6s linear both infinite
 }
 @keyframes background-origen {
     0%{
@@ -94,18 +85,18 @@
 }
 @keyframes background-actualidad {
     0%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121312674916.gif");
+        background-image: url("https://assets.vogue.com/photos/58912e364fe15261130205ba/master/pass/08-beatrix-kiddo-kill-bill.gif");
     }
     60%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121324178844.gif");
+        background-image: url("https://imagenes.20minutos.es/uploads/imagenes/2019/04/25/3038410.gif");
     }
     100%{
-        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121342234925.gif");
+        background-image: url("https://img.wattpad.com/3abf2f83ed03e831a937cd88d15b5fd28530f17d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f766554773568354365714a3165413d3d2d313234393433393832382e313731653961613762666264383434623833353331323539393833342e676966");
     }
 }
 
 #actualidad {
     background-size: cover;
     background-attachment: fixed;
-    animation: background-actualidad 8s ease-in-out both infinite
+    animation: background-actualidad 5s ease-in-out both infinite
 }
