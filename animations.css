@@ -1,0 +1,111 @@
+@keyframes background-begin {
+    0%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121421045508.gif");
+    }
+    20%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121493589183.gif");
+    }
+    40%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/17//2016031720192921705.gif");
+    }
+    60%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121373799682.gif");
+    }
+    80%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121050553887.gif");
+    }
+    100%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031120594949861.gif");
+    }
+}
+
+#begin {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-begin 15s linear both infinite
+}
+@keyframes background-origen {
+    0%{
+        background-image: url("https://i.makeagif.com/media/11-04-2016/Bc8BUn.gif");
+    }
+    60%{
+        background-image: url("https://r1.community.samsung.com/t5/image/serverpage/image-id/294402i9003989BE76A1232/image-size/large?v=v2&px=999");
+    }
+    100%{
+        background-image: url("https://www.mubis.es/media/users/3724/84376/coleccion-de-gif-animados-de-infinidad-de-peliculas-para-descargar-l_cover.gif");
+    }
+}
+
+#origen {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-origen 6s ease-in-out both infinite
+}
+@keyframes background-silente {
+    0%{
+        background-image: url("https://24.media.tumblr.com/9dfc359c2ed393b8938e4f3567237f42/tumblr_mny9micnSa1qbcfcko1_500.gif");
+    }
+    60%{
+        background-image: url("https://i.gifer.com/GbYz.gif");
+    }
+    100%{
+        background-image: url("https://media.tenor.com/HQUgWnmCQaAAAAAM/silent-movies-black-and-white.gif");
+    }
+}
+
+#silente {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-silente 8s ease-in-out both infinite
+}
+@keyframes background-sonoro {
+    0%{
+        background-image: url("https://j.gifs.com/y42dBl.gif");
+    }
+    60%{
+        background-image: url("https://media.tenor.com/JjYakPsjQacAAAAM/casablanca-alcohol.gif");
+    }
+    100%{
+        background-image: url("https://lh3.googleusercontent.com/proxy/Mt4v5jEECZMN4LBbbp9qJq2JgiwLsH-wC92nfetGU6lOeOC4VeEJ1wGHpd9oUVWxml_8mHV-kmcymGpehVVb7GnqTpOYCBhC4PC-rvy5igj1anAu7xjPY4Lg0UIHs6cwzcLu9uCLkQAEvlalMRn0XfI");
+    }
+}
+
+#sonoro {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-sonoro 8s ease-in-out both infinite
+}
+@keyframes background-color {
+    0%{
+        background-image: url("https://64.media.tumblr.com/8c58048cb69df1ce3b0eddf51215ed36/tumblr_n6qjy88afG1ste05mo1_500.gif");
+    }
+    60%{
+        background-image: url("https://64.media.tumblr.com/4965207ef0af9ce5a8467030c936bbb8/tumblr_o6rcndNNfB1svv6bpo1_500.gif");
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kfswa0xzhPzEycJtxUAD-bFh3oYVonx6gQ&s");
+    }
+}
+
+#color {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-color 8s ease-in-out both infinite
+}
+@keyframes background-actualidad {
+    0%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121312674916.gif");
+    }
+    60%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121324178844.gif");
+    }
+    100%{
+        background-image: url("http://www.cinenuevatribuna.es/asset/thumbnail,1280,720,center,center/media/cinetribuna/images/2016/03/11//2016031121342234925.gif");
+    }
+}
+
+#actualidad {
+    background-size: cover;
+    background-attachment: fixed;
+    animation: background-actualidad 8s ease-in-out both infinite
+}
